@@ -30,7 +30,8 @@ SECRET_KEY = '4uum-3wk!lkyb7&+xt8+1679l4bofk+d7lwg7!1f8-&nao_n9b'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
+    '127.0.0.1',
+    env.str("PUBLIC_IP")
 ]
 
 
