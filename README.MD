@@ -1,4 +1,4 @@
-# Simple weather history API
+# Simple historical weather API
 
 ## Description
 This is a basic api to fetch weather for a specific city/town using django as rest framework and RapidAPI to fetch the historical data.
